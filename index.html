@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Project1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+
+</head>
+
+<body>
+    
+    
+    <!-- Blue header bar -->    
+    <section class="header-bar">
+        <div class="container ">
+            <div class="row bar-content pull-right">
+                
+                <div class="col-md-5 text mobile">
+                    <p><b>MINI of Raleigh</b></p>
+                </div>
+                
+                <div class="col-md-1 bar mobile">
+                    <img src="images/spacer.png">
+                </div>
+
+                <div class="col-md-3 icon mobile">
+                    <a href="#"><img src="images/help.png" alt="help" hspace="5";></a>
+                </div>
+                
+                <div class="col-md-1 bar mobile">
+                    <img src="images/spacer.png">
+                </div>
+                
+                <div class="col-md-3 icon mobile">
+                    <a href="#"><img src="images/settings.png" alt="settings" hspace="5"></a>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+    
+<!-- Navbar--> 
+      
+    <nav class="navbar"> <!--source url: http://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                    <ul class="nav navbar-nav"> <!--source url: http://stackoverflow.com/questions/4717117/css-image-link-change-on-hover-->
+                        <li><a class="active" href="#index.html"><img src="images/dashboard_green.png" onmouseover="this.src='images/dashboard.png'" onmouseout="this.src='images/dashboard_green.png'" alt="dashboard" style="margin-bottom:10px" ></a></li>
+                        <li class="page"><a href="#index.html"><img src="images/customers_green.png" onmouseover="this.src='images/customers.png'" onmouseout="this.src='images/customers_green.png'" alt="customers"></a></li>
+                        <li class="page"><a href="#index.html"><img src="images/messages_green.png" onmouseover="this.src='images/messages.png'" onmouseout="this.src='images/messages_green.png'" alt="messages"></a></li>
+                        <li class="page"><a href="#index.html"><img src="images/promotions_green.png" onmouseover="this.src='images/promotions.png'" onmouseout="this.src='images/promotions_green.png'" alt="promotions"></a></li>
+                        <li class="page"><a href="#index.html"><img src="images/page_creator_green.png" onmouseover="this.src='images/page_creator.png'" onmouseout="this.src='images/page_creator_green.png'" alt="page creator"></a></li>
+                        <li class="page"><a href="#index.html"><img src="images/analytics_green.png" onmouseover="this.src='images/analytics.png'" onmouseout="this.src='images/analytics_green.png'" alt="analytics"></a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!--dashboard-->
+    <section class="dashboard">
+        <div class="container">
+            <div class="row green">
+                <div class="col-md-6">
+                    <h1>Dashboard</h1>
+                </div>
+                <!--searchbar || source url:http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069-->
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="container-1">
+                            <input type="text" name="search">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--GRID-->
+
+    <section class="grid">
+        <div class="container box-grid">
+            <div class="row outer-grid">
+                <div class="col-md-12 inner-grid"> <!--wraps grid together into container-->
+                    
+                    <!--announcements-->
+                    <article class="announcements">
+                        <div class="row">
+                            <div class="col-md-2 spacer">
+                                <h2>ANNOUNCEMENTS</h2>
+                            </div>
+                                
+                            <div class="col-md-9 spacer">
+                                <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+                            </div>
+                                
+                            <div class="col-md-1 arrow">
+                                <a href="#"><img src="images/arrow_left.png" class=left-arrow></a>
+                                <a href="#"><img src="images/arrow_right.png"></a>
+                            </div>
+                        </div>  
+                    </article>
+                    
+                    
+                    <!--tasks-->
+                    <article class="tasks">
+                        <div class="container col-md-4 tasks-box">
+                            <div class="row tasks-title">
+                                <div class="col-md-8">
+                                    <h1>Tasks</h1>
+                                </div>
+                                <div class="col-md-4 task-settings">
+                                    <a href="#"><img src="images/settings_gray.png" class="settings-icon"></a>
+                                </div>
+                            </div>
+                            
+                            <div class="row divide gray-hover">
+                                <div class="col-md-9">
+                                    <div class= number-circle>1</div>
+                                    <span>Welcome contacts</span>
+                                </div>
+                                
+                                <div class="col-md-3 border-task-element">
+                                    <img src="images/person_blue.png">
+                                    <p>32</p>
+                                </div>
+                                
+                            </div>
+                
+                            <div class="row divide gray-hover">
+                                <div class="col-md-9">
+                                    <div class= number-circle>2</div>
+                                    <span>Provide Responses</span>
+                                </div>
+                                
+                                <div class="col-md-3 border-task-element">
+                                    <img src="images/person_blue.png">
+                                    <p>36</p>
+                                </div>
+                            </div>
+                
+                            <div class="row divide gray-hover">
+                                <div class="col-md-9">
+                                    <div class= number-circle>3</div>
+                                    <span>Review Activity</span>
+                                </div>
+                                
+                                <div class="col-md-3 border-task-element">
+                                    <img src="images/person_blue.png">
+                                    <p>36</p>
+                                </div>
+                            </div>
+                
+                            <div class="row gray-hover">
+                                <div class="col-md-9">
+                                    <div class= number-circle>4</div>
+                                    <span>Reach Out</span>
+                                </div>
+                                
+                                <div class="col-md-3 border-task-element">
+                                    <img src="images/person_blue.png">
+                                    <p>&nbsp;3</p>
+                                </div>
+                            </div>
+                            
+                    
+                        </div>
+                    </article>
+                    
+                    <!--analytics-->
+                    <article class="analytics">
+                        <div class="container col-md-8 analytics-box">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Analytics</h1>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-9 analytics-divide">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>ACTIVITY</p>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="btn-group menu-right"> <!--source url: http://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp-->
+                                                <button type="button" class="btn btn-primary">06/28/11 - 07/21/11</button>
+                                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                                  <span class="drop-button"><img src="images/dropdown.png"></span></span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  <li><a href="#">07/28/11 - 08/21/11</a></li>
+                                                  <li><a href="#">08/28/11 - 09/21/11</a></li>
+                                                  <li><a href="#">09/28/11 - 10/21/11</a></li>
+                                                </ul>
+                                          </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="row">
+                                        <div class="col-md-12 graph-container">
+                                            <img src="images/graph.png" alt="graph" class="graph-analytics">
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 analytics-right">
+                                    <p>CHANNELS</p>
+                                    <img src="images/pie_channels.png">
+                                    <p>REFERRALS</p>
+                                    <img src="images/pie_referrals.png">
+                                </div>
+                            </div>
+                        
+                            <div class="row checkboxes row-centered"> <!--source url:http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953-->
+                                <div class= "col-md-3 fb-check col-centered">
+                                    <input type="checkbox" id="c1" name="fb" />
+                                    <label for="c1"><span></span><p>Facebook</p></label>
+                                </div>
+                                
+                                <div class= "col-md-3 twitter-check col-centered">
+                                    <input type="checkbox" id="c2" name="twitter" />
+                                    <label for="c2"><span></span><p>Twitter</p></label>
+                                </div>
+                                
+                                <div class= "col-md-3 four-check col-centered">
+                                    <input type="checkbox" id="c3" name="foursquare" />
+                                    <label for="c3"><span></span><p>Foursquare</p></label>
+                                </div>
+                                
+                                <div class= "col-md-3 google-check col-centered">
+                                    <input type="checkbox" id="c4" name="google" />
+                                    <label for="c4"><span></span><p>Google+</p></label>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    
+                    <!--recommendations-->
+                    
+                    <article class="recommendations">
+                        <div class= "container col-md-4 rec-box">
+                            <div class="row">
+                                <div class="col-md-12 rec-title">
+                                    <h1>Recommendations</h1>
+                                </div>
+                            </div>
+                            
+                            <div class="row rec-list dotted-line">
+                                <div class="col-md-1">
+                                    <img src="images/article.png" alt="article">
+                                </div>
+                                
+                                <div class="col-md-11">
+                                    <p class="small-text">Article</p>
+                                    <a href="#"><p>7 Steps to getting more Fans</p></a>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="row rec-list dotted-line">
+                                <div class="col-md-1">
+                                    <img src="images/article.png" alt="article">
+                                </div>
+                                
+                                <div class="col-md-11">
+                                    <p class="small-text">Article</p>
+                                    <a href="#"><p>Increase traction with more interactions</p></a>
+                                </div>
+                            </div>
+                            
+                            <div class="row rec-list dotted-line">
+                                <div class="col-md-1">
+                                    <img src="images/check.png" alt="article">
+                                </div>
+                                
+                                <div class="col-md-11">
+                                    <p class="small-text">Checklist</p>
+                                    <a href="#"><p>Creating a Promotion</p></a>
+                                </div>
+                            </div>
+                            
+                            <div class="row rec-list dotted-line">
+                                <div class="col-md-1">
+                                    <img src="images/lightbulb.png" alt="article">
+                                </div>
+                                
+                                <div class="col-md-11">
+                                    <p class="small-text">Tip</p>
+                                    <a href="#"><p> Share More</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    
+                    
+                    <!--contacts-->
+                    
+                    <article class="contacts">
+                        <div class="container col-md-8 contacts-box">
+                            
+                            
+                            <div class="row padding-contacts row-centered">
+                                <img src="images/avatar_green.png" class="contact-green">
+                                
+                                <div class="col-md-4 contact-styles left-contact col-centered">
+                                    <div class="ribbon">
+                                        <p class="contact-text">75 CONTACTS</p>
+                                        <p class="influencer-text">4 INFLUENCERS</p>
+                                        <img src="images/ribbon_left.png" class="ribbon-left-1">
+                                        <img src="images/ribbon_right.png" class="ribbon-right-1">
+                                    </div>
+                                    <img src="images/contacts_graph.png" class="contact-graph">
+                                    
+                                </div>
+                                
+                                
+                                <img src="images/avatar_orange.png" class="contact-orange">
+                                <div class="col-md-4 contact-styles right-contact col-centered">
+                                    <div class="ribbon">
+                                        <p class="contact-text">17 CUSTOMERS</p>
+                                        <p class="influencer-text">0 INFLUENCERS</p>
+                                        <img src="images/ribbon_left.png" class="ribbon-left-2">
+                                        <img src="images/ribbon_right.png" class="ribbon-right-2">
+                                    </div>
+                                    <img src="images/customers_graph.png" class="contact-graph">
+                                    
+                                </div>
+                            </div>
+                              
+                        </div>
+                    </article>
+                    
+                    
+                    <!--did you know-->
+                    
+                    <article class="did-you-know">
+                        <div class="container col-md-8 did-you-know-box">
+                            <div class="row">
+                                <div class="blue-box">
+                                    <div class="col-md-1">
+                                        <a href=#><img src="images/back.png" class="back"></a>
+                                    </div>
+                                    
+                                    <div class="col-md-10 words">
+                                        <p class="title">DID YOU KNOW?</p>
+                                        <p class="text">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>   
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <a href=#><img src= "images/next.png" class="next"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!--pics-->
+                    
+                    <article class="pics">
+                        <div class="container col-md-12 pics-box">
+                            <div class="row row-centered">
+                                
+                                <div class="col-md-4 col-centered">
+                                    <div class="white-box">
+                                        <img src="images/pic1.png" class="pic1">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 col-centered">
+                                    <div class="white-box">
+                                        <img src="images/pic2.png" class="pic2">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 col-centered">
+                                    <div class="white-box">
+                                        <img src="images/pic3.png" class="pic3">
+                                    </div>
+                                </div>
+                            
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                                        
+                </div>
+            </div>
+        </div>
+    </section>
+    
+                    
+                    
+<!--footer-->
+                    
+                    <section class="footer">
+                        <div class="col-md-12 footer-box">
+                            <div class="row row-centered footer-row">
+                                
+                                <div class="col-md-3 help footer-divide">
+                                    <div class="content">
+                                        <a href="#" class="help-link help-bar">Tutorials</a>
+                                        <a href="#" class="help-link help-bar">Support</a>
+                                        <a href="#" class="help-link">Blog</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 activity footer-divide">
+                                    <div class="content">
+                                        <b><a href="#"><span class="blue">Ariel Winter</span></a>
+                                        <span>likes your</span>
+                                        <a href="#"><span class="blue">Win A Cooper Sweepstakes</span></a>
+                                        <span>Promotion</span></b>
+                                        <a href="#"><img src="images/pullup.png" class="back-to-top"></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-1 logout-bar footer-divide">
+                                    <div class="content2">
+                                        <img src="images/car.png">
+                                        <b><a href="#" class="logout"><span>Logout</span></a></b>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-1 footer-divide">
+                                    <div class="content3">
+                                        <a href="#"><img src="images/social_fb_gray.png" onmouseover="this.src='images/social_fb_color.png'" onmouseout="this.src='images/social_fb_gray.png'"></a>
+                                        <a href="#"><img src="images/social_twitter_gray.png" onmouseover="this.src='images/social_twitter_color.png'" onmouseout="this.src='images/social_twitter_gray.png'"></a>
+                                        <a href="#"><img src="images/social_foursquare_gray.png" onmouseover="this.src='images/social_foursquare_color.png'" onmouseout="this.src='images/social_foursquare_gray.png'"></a>
+                                        <a href="#"><img src="images/social_yt_gray.png" onmouseover="this.src='images/social_yt_color.png'" onmouseout="this.src='images/social_yt_gray.png'"></a>
+                                    </div>
+                                </div>
+                                
+                               
+                                
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </section>                   
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
